@@ -12,6 +12,10 @@ body {
 header {
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -29,7 +33,6 @@ h1 {
 h2 {
   width: 30%;
   background-color: #eed536;
-  margin-left: 41rem;
   padding: 1rem;
   border-radius: 20%;
 }
